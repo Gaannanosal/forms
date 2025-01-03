@@ -1,0 +1,80 @@
+form{
+    width: 420px;
+    
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: 1px solid cornflowerblue;
+    padding: 16px;
+}
+h1{
+   
+font-family: Nunito;
+font-size: 28px;
+font-weight: 800;
+line-height: 32px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.close{
+    display: flex;
+    justify-content: end;
+}
+.wrapper{
+    padding: 0 16px 16px  16px ; 
+}
+input{
+    border: 1px solid #CFD8DC;
+    outline: none;
+    display: block;
+    width: 100%;
+   
+    border-radius: 12px;
+    padding-top: 21px;
+    padding-bottom: 7px;
+    padding-left: 16px;
+
+}
+.email_in{
+   
+    margin-bottom:8px ;
+
+}
+
+p{
+    margin: 24px 0;
+    color:#7B8E98 ;
+font-family: Nunito;
+font-size: 12px;
+font-weight: 400;
+line-height: 14px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+input:focus{
+    
+    border: 1px solid  #FFE44D;
+} 
+button{
+    display: block;
+ 
+padding: 14px 24px 14px 24px;
+
+border-radius: 55px;
+width: 100%;
+margin-bottom: 8px;
+
+
+}
+.primary {
+    border: none;
+    background-color: #FFE44D;
+}
+.second{
+    background-color: transparent;
+    border: 1px solid #CFD8DC;
+}
